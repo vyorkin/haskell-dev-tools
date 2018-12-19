@@ -13,11 +13,16 @@ extra-deps:
   - hasktags-0.71.2
   - haskdogs-0.5.3
   - fast-tags-1.5.0
-  - dhall-1.15.1
-  - dhall-json-1.2.3
+  - dhall-1.19.1
+  - dhall-json-1.2.5
   - happy-1.19.9
   - alex-3.2.4
   - hpack-0.28.2
-  - pandoc-2.2.1
-  - summoner-1.0.6
+  # - pandoc-2.5
+  # - summoner-1.0.6
   - cpphs-1.20.8
+  - dotgen-0.4.2
+# deps of deps
+  - megaparsec-7.0.4
+  - repline-0.2.0.0
+  - serialise-0.2.1.0
